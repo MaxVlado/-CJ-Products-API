@@ -1,0 +1,54 @@
+.tablenav-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.displaying-num {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.page-numbers.current {
+    color: #fff;
+    background-color: #707f8f;
+    border-color: #6a7682;
+}
+
+.page-numbers:hover,
+.page-numbers:focus {
+    color: #fff;
+    background-color: #45494f;
+    border-color: #464c53;
+    text-decoration: none;
+}
+
+.page-numbers.dots {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: default;
+}
+
+.next.page-numbers,
+.prev.page-numbers {
+    font-size: 18px;
+    line-height: 1;
+}
